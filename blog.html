@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta name="viewport" content="with-device-width,
+	initial-scale=1.0">
+	<title> goretti_website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+   
+   </head>
+   <body> 
+<!---------------------------- header ---------------------->
+		<section class="sub-header">
+			<nav>
+				<a href="first_test.html"><img src="glogo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="photo.html">PHOTOGRAPHY</a></li>
+						<li><a href="blog.html">BLOGS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Blogs</h1>
+		</section>
+<!-------------------- blog page -------------------->
+
+
+<!--------------- footer ------------->
+<section class="footer">
+	<h5>About Us</h5>
+	<p>hello my name is goretti Muriithi.</p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-github"></i>
+	</div>
+
+</section>
+
+
+<!-------------- JavaScript for Toggle Menu -------------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+<!-------------- closing tag  ------------>
+</body>
+</html>
+

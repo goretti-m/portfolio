@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta name="viewport" content="with-device-width,
+	initial-scale=1.0">
+	<title> goretti_website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+   
+   </head>
+   <body> 
+<!---------------------------- header ---------------------->
+		<section class="sub-header">
+			<nav>
+				<a href="first_test.html"><img src="glogo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Contact Us</h1>
+		</section>
+<!--------------------------------contact page ---------------------->
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.791639648231!2d-76.47569138454074!3d42.45344917918073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0821a6191da9d%3A0xf50ee64d821b9ff4!2sCornell%20University!5e0!3m2!1sen!2sus!4v1672771486553!5m2!1sen!2sus" 
+	width="600" height="450" style="border:0;" allowfullscreen="" 
+	loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa-solid fa-home"></i>
+				<span>
+					<h5>107 Robert Purcell</h5>
+					<p>Cornell University, Ithaca, NY</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa-solid fa-phone"></i>
+				<span>
+					<h5>+1 862 216 9561</h5>
+					<p>Monday to Saturday | 9AM to 5PM</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa-solid fa-envelope"></i>
+				<span>
+					<h5>gm552@cornell.edu</h5>
+					<p>Email Us Your Query</p>
+				</span>
+			</div>
+		</div>
+
+		<div class="contact-col">
+
+			<form action="form-handler.php" method="post"> 
+				<input type="text" name="name" placeholder="Enter your name"
+				required>
+				<input type="email" name="email" placeholder="Enter email address"
+				required>
+				<input type="text" name="subject" placeholder="Enter your subject"
+				required>
+				<textarea rows="8" name="message" placeholder="Message" required></textarea>
+				<button type="submit" class="button red-btn">Send Message</button>
+			</form>	
+		</div>
+	</div>
+</section>
+
+<!--------------- footer ------------->
+<section class="footer">
+	                    <li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+		<h5></h5>
+						<p>Created by <i class="fa-solid fa-heart"></i> Goretti Muriithi</p>
+						<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-github"></i>
+	</div>
+
+</section>
+
+
+
+<!-------------- JavaScript for Toggle Menu -------------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+<!-------------- closing tag  ------------>
+</body>
+</html>
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta name="viewport" content="with-device-width,
+	initial-scale=1.0">
+	<title> goretti_website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+   
+   </head>
+   <body> 
+<!---------------------------- header ---------------------->
+		<section class="sub-header">
+			<nav>
+				<a href="first_test.html"><img src="glogo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Flight</h1>
+		</section>
+<!--------------------------------- flight info -------------------->
+<section class="about-the-creator">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1> Flight Training</h1>
+			<p>I love being a pilot. I started flying in 2019,
+				and despite the challenges thrown at me in 2020 
+				due to the global pandemic, I did not give up on my dreams. 
+				Several pilots and aerospace professionals were hit hard by
+				the recession that followed the pandemic and lost their jobs. 
+				However, that doesn't stop the thrilling sensation that happens
+				when I lift up the airplane nose during takeoff.
+				COVID-19 wouldn’t stop the breathtaking view of cruising
+				above a blanket of clouds. No amount of doubt surrounding the 
+				fact that I am an African American woman pilot would 
+				stop me from remaining courageous and continuing my 
+				pursuit of flying. I love being in the air - not just 
+				because of invisible prestige that comes from having control 
+				in the air but also from one of my favorite quotes, said by Bessie Coleman: 
+				“The air is the only place free from prejudice”. 
+			</p>
+			</div>	
+		<div class="about-col">
+			<img src="plane.jpg">
+	</div>
+  </div>
+</section>
+
+
+
+<!--------------- footer ------------->
+<section class="footer">
+	<li><a href="home.html">HOME</a></li>
+	<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+		<h5></h5>
+						<p>Created by <i class="fa-solid fa-heart"></i> Goretti Muriithi</p>
+						<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-github"></i>
+	</div>
+
+</section>
+
+
+
+<!-------------- JavaScript for Toggle Menu -------------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+<!-------------- closing tag  ------------>
+</body>
+</html>
+

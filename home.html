@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta name="viewport" content="with-device-width,
+	initial-scale=1.0">
+	<title> goretti_website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+   
+   </head>
+   <body> 
+
+		<section class="header">
+			<nav>
+				<a href="first_test.html"><img src="glogo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+						
+					</ul>
+				</div>
+				<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+		<div class="text-box">
+			<h1>Goretti Muriithi</h1>
+
+			<p> A New Jersey-based Computer Scientist
+				and Investor, <br>focusing on improving her craft.
+			</p>
+			<a href="more.html" class="button">LEARN MORE</a>
+		</div>
+			
+		</section>
+<!--------------------- Skills ----------------------->
+<section class="Skillset">
+	<h1>Experience</h1>
+	<p>And Gained Skills</p>
+
+	<div class="row">
+		<div class="class-col">
+			<h3>Website Developer</h3>
+			<p>HTML, CSS, JavaScript,<br> Visual Design & User Design</p>
+		</div>
+		<div class="class-col">
+			<h3>Management Intern</h3>
+			<p>Communication, Excel, Google Suite, <br> 
+				Email Marketing & Customer Service</p>
+		</div>
+		<div class="class-col">
+			<h3>Wall Street Bound Fellow</h3>
+			<p>CAIA, SIE, Security Management, <br>
+			Risk Management, Investment Management &<br>
+			Valuations</p>
+		</div>
+	</div>
+
+</section>
+<!--------------  campus  ------------->
+<section class="campus">
+	<h1>Creative Passions</h1>
+	<p>In order to keep her brain sharp,<br>
+	here are some of Goretti's chosen endeavors.</p>
+
+	<div class="row">
+
+		<div class="campus-col">
+			<img src="plane.png">
+			<div class="layer">
+				<h4>Aviation</h4>
+			</div>
+		</div>
+
+		<div class="campus-col">
+			<img src="code.png">
+			<div class="layer">
+				<h4>code</h4>
+			</div>
+		</div>
+
+		<div class="campus-col">
+			<img src="art.jpg">
+			<div class="layer">
+				<h4>Art</h4>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!---------------- call to action  -------------->
+
+<section class="cta">
+	<h1>Thank you for viewing!<br>For business
+	inquires, please reach out!</h1>
+	<a href="contact.html" class="button">CONTACT US</a>
+</section>
+
+<!--------------- footer ------------->
+<section class="footer">
+						<li><a href="about.html">ABOUT</a></li>
+						<!-- <li><a href="blog.html">BLOGS</a></li> -->
+						<li><a href="csproject.html">CS PROJECTS</a></li>
+						<li><a href="flight.html">FLIGHT</a></li>
+						<!-- <li><a href="photo.html">PHOTOGRAPHY</a></li> -->
+						<li><a href="contact.html">CONTACT</a></li>
+		<h5></h5>
+						<p>Created by <i class="fa-solid fa-heart"></i> Goretti Muriithi</p>
+						<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-github"></i>
+	</div>
+
+</section>
+
+
+<!-------------- JavaScript for Toggle Menu -------------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+<!-------------- closing tag  ------------>
+</body>
+</html>
+
